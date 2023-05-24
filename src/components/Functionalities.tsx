@@ -28,7 +28,60 @@ const Functionalities: React.FC = () => {
       <div className="notification is-success">
         Esta é uma notificação de sucesso. Bulma fornece classes para diferentes tipos de notificações.
       </div>
+      <h3 className="title is-3 has-text-primary">Exemplo de Mensagem:</h3>
+      <article className="message">
+        <div className="message-header">
+          <p>temos aqui o título</p>
+          <button className="delete" aria-label="delete"></button>
+        </div>
+        <div className="message-body">
+          E aqui nós temos o corpo de uma mensagem, por exemplo
+        </div>
+      </article>
+
+      <h3 className="title is-3 has-text-primary">Exemplo de Menus:</h3>
+      <div>
+      <aside class="menu">
+        <p class="menu-label">
+          Disciplinas
+        </p>
+        <ul class="menu-list">
+          <li><a>FW JS</a></li>
+          <li><a>FMC2</a></li>
+        </ul>
+        <p class="menu-label">
+          IMD
+        </p>
+        <ul class="menu-list">
+          <li><a>Prédio</a></li>
+          <li>
+            <a class="is-active">Projetos</a>
+            <ul>
+              <li><a>Smart metrópole</a></li>
+              <li><a>SUEDS</a></li>
+              <li><a>LABS</a></li>
+            </ul>
+          </li>
+          <li><a>Contatos</a></li>
+          <li><a>Professores</a></li>
+          <li><a>Servidores</a></li>
+        </ul>
+        
+      </aside>
+      </div>
+     
+      
+     
+      
+
+
+
     </div>
+
+  
+
+
+
   );
 };
 
