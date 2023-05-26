@@ -14,7 +14,7 @@ const WhatIsBulma: React.FC = () => {
                 responsivos sem a necessidade de flutuar elementos ou manipular a exibição de propriedades inline.
             </p>
             <h3 className="title is-3 has-text-primary">Exemplo com Flexbox:</h3>
-            <div className="columns is-multiline">
+            <div className="columns">
                 <div className="column">
                     <div className="box">Coluna 1</div>
                 </div>
