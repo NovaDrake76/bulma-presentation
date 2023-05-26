@@ -25,7 +25,7 @@ const WhatIsBulma: React.FC = () => {
                     <div className="box">Coluna 3 - Ocupa metade do espaço disponível</div>
                 </div>
             </div>
-            <p className='has-text-white'>Estamos usando o sistema de grid do Bulma para criar colunas flexíveis com espaçamento igual e responsivas. Note que o uso de classes como `is-half` permite uma flexibilidade ainda maior.</p>
+            <p className='has-text-white'>Estamos usando o sistema de flex do Bulma para criar colunas flexíveis com espaçamento igual e responsivas. Note que o uso de classes como `is-half` permite uma flexibilidade ainda maior.</p>
         </div>
     );
 };

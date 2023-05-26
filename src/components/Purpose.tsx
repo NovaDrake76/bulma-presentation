@@ -15,10 +15,10 @@ const Purpose: React.FC = () => {
             </p>
             <h3 className="title is-3 has-text-primary">Exemplo:</h3>
             <button className="button is-primary">Botão primário</button>
-            <button className="button is-link">Botão de link</button>
+            <button className="button is-link ">Botão de link</button>
             <p className='has-text-white'>Estes são exemplos de botões Bulma, que já vêm com estilos pré-definidos. Além disso, Bulma oferece muitas outras classes para personalizar ainda mais esses botões.</p>
             <h3 className="title is-3 has-text-primary">Responsividade:</h3>
-            <div className="columns is-mobile">
+            <div className="columns ">
                 <div className="column">
                     <div className="notification is-primary">Coluna 1</div>
                 </div>
@@ -26,7 +26,7 @@ const Purpose: React.FC = () => {
                     <div className="notification is-link">Coluna 2</div>
                 </div>
             </div>
-            <p className='has-text-white'>Estas colunas irão empilhar verticalmente quando a tela for muito pequena, graças à classe `is-mobile`.</p>
+            <p className='has-text-white'>Estas colunas irão empilhar verticalmente quando a tela for muito pequena</p>
         </div>
     );
 };

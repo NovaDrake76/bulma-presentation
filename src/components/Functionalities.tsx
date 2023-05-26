@@ -41,46 +41,37 @@ const Functionalities: React.FC = () => {
 
       <h3 className="title is-3 has-text-primary">Exemplo de Menus:</h3>
       <div>
-      <aside class="menu">
-        <p class="menu-label">
-          Disciplinas
-        </p>
-        <ul class="menu-list">
-          <li><a>FW JS</a></li>
-          <li><a>FMC2</a></li>
-        </ul>
-        <p class="menu-label">
-          IMD
-        </p>
-        <ul class="menu-list">
-          <li><a>Prédio</a></li>
-          <li>
-            <a class="is-active">Projetos</a>
-            <ul>
-              <li><a>Smart metrópole</a></li>
-              <li><a>SUEDS</a></li>
-              <li><a>LABS</a></li>
-            </ul>
-          </li>
-          <li><a>Contatos</a></li>
-          <li><a>Professores</a></li>
-          <li><a>Servidores</a></li>
-        </ul>
-        
-      </aside>
-      </div>
-     
-      
-     
-      
+        <aside className="menu">
+          <p className="menu-label">
+            Disciplinas
+          </p>
+          <ul className="menu-list">
+            <li><a>FW JS</a></li>
+            <li><a>FMC2</a></li>
+          </ul>
+          <p className="menu-label">
+            IMD
+          </p>
+          <ul className="menu-list">
+            <li><a>Prédio</a></li>
+            <li>
+              <a className="is-active">Projetos</a>
+              <ul>
+                <li><a>Smart metrópole</a></li>
+                <li><a>SUEDS</a></li>
+                <li><a>LABS</a></li>
+              </ul>
+            </li>
+            <li><a>Contatos</a></li>
+            <li><a>Professores</a></li>
+            <li><a>Servidores</a></li>
+          </ul>
 
+        </aside>
+      </div>
 
 
     </div>
-
-  
-
-
 
   );
 };
